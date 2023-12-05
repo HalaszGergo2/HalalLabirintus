@@ -75,6 +75,11 @@ public class KinyitodDoboz extends javax.swing.JFrame {
         jButton3.setFont(new java.awt.Font("Segoe UI", 0, 21)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("GYERÜNK");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 350, 170, 60));
 
         lblHatter.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/hatter.jpg"))); // NOI18N
@@ -88,6 +93,11 @@ public class KinyitodDoboz extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
        JOptionPane.showMessageDialog(rootPane, "„Jól tetted. Legalább volt annyi eszed, hogy megállj és elfogadd az ajándékot. \nMost azt tanácsolom neked, hogy keress és használj különféle tárgyakat, \nha sikerrel akarsz áthaladni Halállabirintusomon.” \nAláírás: Szukumvit", "REJTELMES ÜZENET", 1);
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+     new Eszak().setVisible(true);
+     dispose();
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments

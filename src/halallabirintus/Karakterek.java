@@ -42,7 +42,8 @@ public class Karakterek extends javax.swing.JFrame {
         lblMana = new javax.swing.JLabel();
         lblHarcos = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setResizable(false);
 
         pnlKarakter.setBorder(javax.swing.BorderFactory.createTitledBorder("Válassz karaktert:"));
 
@@ -55,11 +56,6 @@ public class Karakterek extends javax.swing.JFrame {
         rdbVarazslo.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
                 rdbVarazsloItemStateChanged(evt);
-            }
-        });
-        rdbVarazslo.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                rdbVarazsloActionPerformed(evt);
             }
         });
 
@@ -228,10 +224,6 @@ public class Karakterek extends javax.swing.JFrame {
         }
          
     }//GEN-LAST:event_rdbVarazsloItemStateChanged
-
-    private void rdbVarazsloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbVarazsloActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_rdbVarazsloActionPerformed
 
     /**
      * @param args the command line arguments

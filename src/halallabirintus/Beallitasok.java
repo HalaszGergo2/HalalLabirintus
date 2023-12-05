@@ -44,6 +44,7 @@ public class Beallitasok extends javax.swing.JFrame {
         sldZene = new javax.swing.JSlider();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setResizable(false);
 
         jPanel5.setBackground(new java.awt.Color(153, 153, 153));
 

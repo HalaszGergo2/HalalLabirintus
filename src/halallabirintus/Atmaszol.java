@@ -26,54 +26,54 @@ public class Atmaszol extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        lblSzoveg2 = new javax.swing.JLabel();
+        lblSzoveg3 = new javax.swing.JLabel();
+        lblSzoveg4 = new javax.swing.JLabel();
+        lblSzoveg5 = new javax.swing.JLabel();
+        lblSzoveg = new javax.swing.JLabel();
+        btnMenu = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("pillanatban elnyelhet.");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 50, -1, -1));
+        lblSzoveg2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblSzoveg2.setForeground(new java.awt.Color(255, 255, 255));
+        lblSzoveg2.setText("pillanatban elnyelhet.");
+        getContentPane().add(lblSzoveg2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 50, -1, -1));
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("Nehéz átvergődni rajta, mert puha anyagában alig tudod");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 100, -1, -1));
+        lblSzoveg3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblSzoveg3.setForeground(new java.awt.Color(255, 255, 255));
+        lblSzoveg3.setText("Nehéz átvergődni rajta, mert puha anyagában alig tudod");
+        getContentPane().add(lblSzoveg3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 100, -1, -1));
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("a lábadat emelni, de végül átvergődsz rajta.");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 130, -1, -1));
+        lblSzoveg4.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblSzoveg4.setForeground(new java.awt.Color(255, 255, 255));
+        lblSzoveg4.setText("a lábadat emelni, de végül átvergődsz rajta.");
+        getContentPane().add(lblSzoveg4, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 130, -1, -1));
 
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setText("Megkönnyebbülten érsz újra szilárd talajra, és fordulsz kelet felé.");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, -1, -1));
+        lblSzoveg5.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblSzoveg5.setForeground(new java.awt.Color(255, 255, 255));
+        lblSzoveg5.setText("Megkönnyebbülten érsz újra szilárd talajra, és fordulsz kelet felé.");
+        getContentPane().add(lblSzoveg5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, -1, -1));
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setText("Fölmászol a lágy sziklára, attól tartasz,hogy bár-melyik ");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 20, -1, -1));
+        lblSzoveg.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblSzoveg.setForeground(new java.awt.Color(255, 255, 255));
+        lblSzoveg.setText("Fölmászol a lágy sziklára, attól tartasz,hogy bár-melyik ");
+        getContentPane().add(lblSzoveg, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 20, -1, -1));
 
-        jButton1.setBackground(new java.awt.Color(255, 51, 51));
-        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("MENÜ");
-        jButton1.setMinimumSize(new java.awt.Dimension(80, 30));
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        btnMenu.setBackground(new java.awt.Color(255, 51, 51));
+        btnMenu.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        btnMenu.setForeground(new java.awt.Color(255, 255, 255));
+        btnMenu.setText("MENÜ");
+        btnMenu.setMinimumSize(new java.awt.Dimension(80, 30));
+        btnMenu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                btnMenuActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 290, 300, 100));
+        getContentPane().add(btnMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 290, 300, 100));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/hattereszak.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, 480));
@@ -82,9 +82,9 @@ public class Atmaszol extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void btnMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMenuActionPerformed
         dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_btnMenuActionPerformed
 
     /**
      * @param args the command line arguments
@@ -122,12 +122,12 @@ public class Atmaszol extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton btnMenu;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel lblSzoveg;
+    private javax.swing.JLabel lblSzoveg2;
+    private javax.swing.JLabel lblSzoveg3;
+    private javax.swing.JLabel lblSzoveg4;
+    private javax.swing.JLabel lblSzoveg5;
     // End of variables declaration//GEN-END:variables
 }

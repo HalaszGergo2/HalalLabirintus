@@ -26,36 +26,36 @@ public class Nyugat2 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        lblSzoveg2 = new javax.swing.JLabel();
+        lblSzoveg = new javax.swing.JLabel();
+        btnMenu = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setText("egy jókora vasharang csüng alá a boltozatról.");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 150, -1, -1));
+        lblSzoveg2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblSzoveg2.setForeground(new java.awt.Color(255, 255, 255));
+        lblSzoveg2.setText("egy jókora vasharang csüng alá a boltozatról.");
+        getContentPane().add(lblSzoveg2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 150, -1, -1));
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setText("Ahogy végigmész az alagúton, csodálkozva látod, hogy");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 110, -1, -1));
+        lblSzoveg.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblSzoveg.setForeground(new java.awt.Color(255, 255, 255));
+        lblSzoveg.setText("Ahogy végigmész az alagúton, csodálkozva látod, hogy");
+        getContentPane().add(lblSzoveg, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 110, -1, -1));
 
-        jButton1.setBackground(new java.awt.Color(255, 51, 51));
-        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("MENÜ");
-        jButton1.setMinimumSize(new java.awt.Dimension(80, 30));
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        btnMenu.setBackground(new java.awt.Color(255, 51, 51));
+        btnMenu.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        btnMenu.setForeground(new java.awt.Color(255, 255, 255));
+        btnMenu.setText("MENÜ");
+        btnMenu.setMinimumSize(new java.awt.Dimension(80, 30));
+        btnMenu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                btnMenuActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 270, 300, 100));
+        getContentPane().add(btnMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 270, 300, 100));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/hattereszak.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, 480));
@@ -64,9 +64,9 @@ public class Nyugat2 extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void btnMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMenuActionPerformed
         dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_btnMenuActionPerformed
 
     /**
      * @param args the command line arguments
@@ -104,9 +104,9 @@ public class Nyugat2 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton btnMenu;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel lblSzoveg;
+    private javax.swing.JLabel lblSzoveg2;
     // End of variables declaration//GEN-END:variables
 }

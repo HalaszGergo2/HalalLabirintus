@@ -26,47 +26,47 @@ public class Nyugat extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
+        lblSzoveg = new javax.swing.JLabel();
+        lblSzoveg2 = new javax.swing.JLabel();
+        btnEszak = new javax.swing.JButton();
+        btnNyuga = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("A három pár nedves lábnyomot követve az alagútnyugati");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, -1, -1));
+        lblSzoveg.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblSzoveg.setForeground(new java.awt.Color(255, 255, 255));
+        lblSzoveg.setText("A három pár nedves lábnyomot követve az alagútnyugati");
+        getContentPane().add(lblSzoveg, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, -1, -1));
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("elágazásában hamarosan egy újabb el-ágazáshoz érsz.");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 80, -1, -1));
+        lblSzoveg2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblSzoveg2.setForeground(new java.awt.Color(255, 255, 255));
+        lblSzoveg2.setText("elágazásában hamarosan egy újabb el-ágazáshoz érsz.");
+        getContentPane().add(lblSzoveg2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 80, -1, -1));
 
-        jButton2.setBackground(new java.awt.Color(255, 51, 51));
-        jButton2.setFont(new java.awt.Font("Segoe UI", 1, 21)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setText("ÉSZAK");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        btnEszak.setBackground(new java.awt.Color(255, 51, 51));
+        btnEszak.setFont(new java.awt.Font("Segoe UI", 1, 21)); // NOI18N
+        btnEszak.setForeground(new java.awt.Color(255, 255, 255));
+        btnEszak.setText("ÉSZAK");
+        btnEszak.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                btnEszakActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 230, 140, 90));
+        getContentPane().add(btnEszak, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 230, 140, 90));
 
-        jButton3.setBackground(new java.awt.Color(255, 51, 51));
-        jButton3.setFont(new java.awt.Font("Segoe UI", 1, 21)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jButton3.setText("NYUGAT");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        btnNyuga.setBackground(new java.awt.Color(255, 51, 51));
+        btnNyuga.setFont(new java.awt.Font("Segoe UI", 1, 21)); // NOI18N
+        btnNyuga.setForeground(new java.awt.Color(255, 255, 255));
+        btnNyuga.setText("NYUGAT");
+        btnNyuga.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                btnNyugaActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, 140, 90));
+        getContentPane().add(btnNyuga, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, 140, 90));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/hattereszak.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(3, 0, 610, 480));
@@ -75,15 +75,15 @@ public class Nyugat extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void btnEszakActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEszakActionPerformed
         new Eszak2().setVisible(true);
         dispose();
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_btnEszakActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void btnNyugaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNyugaActionPerformed
         new Nyugat2().setVisible(true);
         dispose();
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_btnNyugaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -121,10 +121,10 @@ public class Nyugat extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
+    private javax.swing.JButton btnEszak;
+    private javax.swing.JButton btnNyuga;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel lblSzoveg;
+    private javax.swing.JLabel lblSzoveg2;
     // End of variables declaration//GEN-END:variables
 }

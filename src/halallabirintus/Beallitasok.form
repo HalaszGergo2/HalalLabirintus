@@ -50,17 +50,17 @@
               <Group type="102" attributes="0">
                   <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="2" attributes="0">
-                      <Component id="jPanel1" alignment="2" min="-2" max="-2" attributes="0"/>
-                      <Component id="jPanel2" alignment="2" min="-2" max="-2" attributes="0"/>
+                      <Component id="pnlZene" alignment="2" min="-2" max="-2" attributes="0"/>
+                      <Component id="pnlEger" alignment="2" min="-2" max="-2" attributes="0"/>
                       <Group type="102" alignment="2" attributes="0">
-                          <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                          <Component id="pnlGrafika" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                          <Component id="pnlNehez" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="2" attributes="0">
-                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnMegsem" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
-                          <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnAlkalmaz" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
@@ -71,18 +71,18 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                  <Component id="pnlZene" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <Component id="pnlEger" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="jPanel3" max="32767" attributes="0"/>
-                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      <Component id="pnlNehez" max="32767" attributes="0"/>
+                      <Component id="pnlGrafika" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnMegsem" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnAlkalmaz" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace pref="14" max="32767" attributes="0"/>
               </Group>
@@ -90,7 +90,7 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Container class="javax.swing.JPanel" name="jPanel2">
+        <Container class="javax.swing.JPanel" name="pnlEger">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="99" green="99" red="99" type="rgb"/>
@@ -109,7 +109,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jSlider2" min="-2" pref="142" max="-2" attributes="0"/>
+                      <Component id="sldEger" min="-2" pref="142" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -118,18 +118,18 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jSlider2" min="-2" max="-2" attributes="0"/>
+                      <Component id="sldEger" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JSlider" name="jSlider2">
+            <Component class="javax.swing.JSlider" name="sldEger">
             </Component>
           </SubComponents>
         </Container>
-        <Container class="javax.swing.JPanel" name="jPanel3">
+        <Container class="javax.swing.JPanel" name="pnlNehez">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="99" green="99" red="99" type="rgb"/>
@@ -152,9 +152,9 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jRadioButton2" min="-2" max="-2" attributes="0"/>
-                          <Component id="jRadioButton1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jRadioButton3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="rdbNehez" min="-2" max="-2" attributes="0"/>
+                          <Component id="rdbKonnyu" min="-2" max="-2" attributes="0"/>
+                          <Component id="rdbKozep" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="19" max="32767" attributes="0"/>
                   </Group>
@@ -164,18 +164,18 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jRadioButton1" min="-2" max="-2" attributes="0"/>
+                      <Component id="rdbKonnyu" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                      <Component id="jRadioButton2" min="-2" max="-2" attributes="0"/>
+                      <Component id="rdbNehez" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jRadioButton3" min="-2" max="-2" attributes="0"/>
+                      <Component id="rdbKozep" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JRadioButton" name="jRadioButton1">
+            <Component class="javax.swing.JRadioButton" name="rdbKonnyu">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="buttonGroup1"/>
@@ -183,7 +183,7 @@
                 <Property name="text" type="java.lang.String" value="K&#xf6;nny&#x171;"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="jRadioButton3">
+            <Component class="javax.swing.JRadioButton" name="rdbKozep">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="buttonGroup1"/>
@@ -191,7 +191,7 @@
                 <Property name="text" type="java.lang.String" value="Neh&#xe9;z"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="jRadioButton2">
+            <Component class="javax.swing.JRadioButton" name="rdbNehez">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="buttonGroup1"/>
@@ -202,14 +202,14 @@
             </Component>
           </SubComponents>
         </Container>
-        <Container class="javax.swing.JPanel" name="jPanel4">
+        <Container class="javax.swing.JPanel" name="pnlGrafika">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="99" green="99" red="99" type="rgb"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                <TitledBorder title="J&#xe1;t&#xe9;k neh&#xe9;zs&#xe9;ge:">
+                <TitledBorder title="Grafika:">
                   <Color PropertyName="color" blue="ff" green="ff" red="ff" type="rgb"/>
                 </TitledBorder>
               </Border>
@@ -226,10 +226,10 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jComboBox1" max="32767" attributes="0"/>
-                              <Component id="jComboBox2" max="32767" attributes="0"/>
+                              <Component id="cmbFelbontas" max="32767" attributes="0"/>
+                              <Component id="cmbSzint" max="32767" attributes="0"/>
                           </Group>
-                          <Component id="jCheckBox1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="chbSzin" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -239,18 +239,18 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jComboBox1" min="-2" max="-2" attributes="0"/>
+                      <Component id="cmbFelbontas" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jComboBox2" min="-2" max="-2" attributes="0"/>
+                      <Component id="cmbSzint" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jCheckBox1" min="-2" max="-2" attributes="0"/>
+                      <Component id="chbSzin" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="11" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JComboBox" name="jComboBox1">
+            <Component class="javax.swing.JComboBox" name="cmbFelbontas">
               <Properties>
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                   <StringArray count="5">
@@ -266,7 +266,7 @@
                 <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JComboBox" name="jComboBox2">
+            <Component class="javax.swing.JComboBox" name="cmbSzint">
               <Properties>
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                   <StringArray count="4">
@@ -281,30 +281,30 @@
                 <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
               </AuxValues>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCheckBox1">
+            <Component class="javax.swing.JCheckBox" name="chbSzin">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Sz&#xed;nvak m&#xf3;d"/>
               </Properties>
             </Component>
           </SubComponents>
         </Container>
-        <Component class="javax.swing.JButton" name="jButton1">
+        <Component class="javax.swing.JButton" name="btnMegsem">
           <Properties>
             <Property name="text" type="java.lang.String" value="M&#xe9;gsem"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMegsemActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton2">
+        <Component class="javax.swing.JButton" name="btnAlkalmaz">
           <Properties>
             <Property name="text" type="java.lang.String" value="Alkalmaz"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAlkalmazActionPerformed"/>
           </Events>
         </Component>
-        <Container class="javax.swing.JPanel" name="jPanel1">
+        <Container class="javax.swing.JPanel" name="pnlZene">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="99" green="99" red="99" type="rgb"/>
@@ -323,7 +323,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jSlider1" min="-2" pref="142" max="-2" attributes="0"/>
+                      <Component id="sldZene" min="-2" pref="142" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -332,14 +332,14 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jSlider1" min="-2" max="-2" attributes="0"/>
+                      <Component id="sldZene" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JSlider" name="jSlider1">
+            <Component class="javax.swing.JSlider" name="sldZene">
             </Component>
           </SubComponents>
         </Container>

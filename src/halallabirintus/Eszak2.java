@@ -26,48 +26,48 @@ public class Eszak2 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        lblSzoveg4 = new javax.swing.JLabel();
+        lblSzoveg = new javax.swing.JLabel();
+        lblSzoveg2 = new javax.swing.JLabel();
+        lblSzoveg3 = new javax.swing.JLabel();
+        btnHarc = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setText("Előhúzod a kardod, és felkészülsz a harcra!");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 170, -1, -1));
+        lblSzoveg4.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblSzoveg4.setForeground(new java.awt.Color(255, 255, 255));
+        lblSzoveg4.setText("Előhúzod a kardod, és felkészülsz a harcra!");
+        getContentPane().add(lblSzoveg4, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 170, -1, -1));
 
-        jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setText("Hallod, hogy elölről súlyos lépések közelednek.");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 30, -1, -1));
+        lblSzoveg.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblSzoveg.setForeground(new java.awt.Color(255, 255, 255));
+        lblSzoveg.setText("Hallod, hogy elölről súlyos lépések közelednek.");
+        getContentPane().add(lblSzoveg, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 30, -1, -1));
 
-        jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel9.setText("Egy széles, állatbőrökbe öltözött, kőbaltás, primitívlény lép elő. ");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, -1, -1));
+        lblSzoveg2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblSzoveg2.setForeground(new java.awt.Color(255, 255, 255));
+        lblSzoveg2.setText("Egy széles, állatbőrökbe öltözött, kőbaltás, primitívlény lép elő. ");
+        getContentPane().add(lblSzoveg2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, -1, -1));
 
-        jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel10.setText("Ahogy meglát, morog, a földre köp, majd a kőbaltával közeledik");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, -1, -1));
+        lblSzoveg3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        lblSzoveg3.setForeground(new java.awt.Color(255, 255, 255));
+        lblSzoveg3.setText("Ahogy meglát, morog, a földre köp, majd a kőbaltával közeledik");
+        getContentPane().add(lblSzoveg3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, -1, -1));
 
-        jButton1.setBackground(new java.awt.Color(255, 51, 51));
-        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("HARC!");
-        jButton1.setMinimumSize(new java.awt.Dimension(80, 30));
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        btnHarc.setBackground(new java.awt.Color(255, 51, 51));
+        btnHarc.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        btnHarc.setForeground(new java.awt.Color(255, 255, 255));
+        btnHarc.setText("HARC!");
+        btnHarc.setMinimumSize(new java.awt.Dimension(80, 30));
+        btnHarc.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                btnHarcActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 250, 300, 100));
+        getContentPane().add(btnHarc, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 250, 300, 100));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/hattereszak.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, 480));
@@ -76,9 +76,9 @@ public class Eszak2 extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void btnHarcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHarcActionPerformed
         dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_btnHarcActionPerformed
 
     /**
      * @param args the command line arguments
@@ -116,11 +116,11 @@ public class Eszak2 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton btnHarc;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel lblSzoveg;
+    private javax.swing.JLabel lblSzoveg2;
+    private javax.swing.JLabel lblSzoveg3;
+    private javax.swing.JLabel lblSzoveg4;
     // End of variables declaration//GEN-END:variables
 }

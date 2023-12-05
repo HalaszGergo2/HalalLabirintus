@@ -27,24 +27,24 @@ public class Karakterek extends javax.swing.JFrame {
     private void initComponents() {
 
         buttonGroup1 = new javax.swing.ButtonGroup();
-        jPanel1 = new javax.swing.JPanel();
+        pnlKarakter = new javax.swing.JPanel();
         rdbHarcos = new javax.swing.JRadioButton();
         rdbVarazslo = new javax.swing.JRadioButton();
         lblKep = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        btnKivalaszt = new javax.swing.JButton();
+        btnMegsem = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        lblManaszoveg = new javax.swing.JLabel();
+        lblEletszoveg = new javax.swing.JLabel();
         lblSebzes = new javax.swing.JLabel();
         lblElet = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
+        lblSebzesszoveg = new javax.swing.JLabel();
         lblMana = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
+        lblHarcos = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Válassz karaktert:"));
+        pnlKarakter.setBorder(javax.swing.BorderFactory.createTitledBorder("Válassz karaktert:"));
 
         buttonGroup1.add(rdbHarcos);
         rdbHarcos.setSelected(true);
@@ -63,20 +63,20 @@ public class Karakterek extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        javax.swing.GroupLayout pnlKarakterLayout = new javax.swing.GroupLayout(pnlKarakter);
+        pnlKarakter.setLayout(pnlKarakterLayout);
+        pnlKarakterLayout.setHorizontalGroup(
+            pnlKarakterLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlKarakterLayout.createSequentialGroup()
                 .addGap(15, 15, 15)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(pnlKarakterLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(rdbVarazslo)
                     .addComponent(rdbHarcos))
                 .addContainerGap(18, Short.MAX_VALUE))
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        pnlKarakterLayout.setVerticalGroup(
+            pnlKarakterLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlKarakterLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(rdbHarcos)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -88,31 +88,31 @@ public class Karakterek extends javax.swing.JFrame {
         lblKep.setMaximumSize(new java.awt.Dimension(961, 740));
         lblKep.setMinimumSize(new java.awt.Dimension(961, 740));
 
-        jButton1.setText("Kiválaszt");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        btnKivalaszt.setText("Kiválaszt");
+        btnKivalaszt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                btnKivalasztActionPerformed(evt);
             }
         });
 
-        jButton2.setText("Mégsem");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        btnMegsem.setText("Mégsem");
+        btnMegsem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                btnMegsemActionPerformed(evt);
             }
         });
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Statisztikák:"));
 
-        jLabel4.setText("Mana:");
+        lblManaszoveg.setText("Mana:");
 
-        jLabel2.setText("Életerő:");
+        lblEletszoveg.setText("Életerő:");
 
         lblSebzes.setText("80");
 
         lblElet.setText("120");
 
-        jLabel6.setText("Sebzés:");
+        lblSebzesszoveg.setText("Sebzés:");
 
         lblMana.setText("60");
 
@@ -124,13 +124,13 @@ public class Karakterek extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jLabel6)
+                        .addComponent(lblSebzesszoveg)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(lblSebzes))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel2)
-                            .addComponent(jLabel4))
+                            .addComponent(lblEletszoveg)
+                            .addComponent(lblManaszoveg))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(lblElet)
@@ -146,23 +146,23 @@ public class Karakterek extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jLabel2)
+                        .addComponent(lblEletszoveg)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel4))
+                        .addComponent(lblManaszoveg))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(lblElet)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(lblMana)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel6)
+                    .addComponent(lblSebzesszoveg)
                     .addComponent(lblSebzes))
                 .addContainerGap())
         );
 
         jPanel2Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {lblElet, lblMana, lblSebzes});
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/harcossss.jpg"))); // NOI18N
+        lblHarcos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/harcossss.jpg"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -171,10 +171,10 @@ public class Karakterek extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(25, 25, 25)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pnlKarakter, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton1)
-                    .addComponent(jButton2))
+                    .addComponent(btnKivalaszt)
+                    .addComponent(btnMegsem))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(44, 44, 44)
@@ -182,24 +182,24 @@ public class Karakterek extends javax.swing.JFrame {
                         .addContainerGap(34, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel1)
+                        .addComponent(lblHarcos)
                         .addGap(47, 47, 47))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(26, 26, 26)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(pnlKarakter, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton1)
+                .addComponent(btnKivalaszt)
                 .addGap(27, 27, 27)
-                .addComponent(jButton2)
+                .addComponent(btnMegsem)
                 .addGap(40, 40, 40))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel1)
+                .addComponent(lblHarcos)
                 .addGap(18, 18, 18)
                 .addComponent(lblKep, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
@@ -208,13 +208,13 @@ public class Karakterek extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void btnKivalasztActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKivalasztActionPerformed
         dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_btnKivalasztActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void btnMegsemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMegsemActionPerformed
         dispose();
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_btnMegsemActionPerformed
 
     private void rdbVarazsloItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_rdbVarazsloItemStateChanged
         if(rdbVarazslo.isSelected()){
@@ -269,19 +269,19 @@ public class Karakterek extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnKivalaszt;
+    private javax.swing.JButton btnMegsem;
     private javax.swing.ButtonGroup buttonGroup1;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JLabel lblElet;
+    private javax.swing.JLabel lblEletszoveg;
+    private javax.swing.JLabel lblHarcos;
     private javax.swing.JLabel lblKep;
     private javax.swing.JLabel lblMana;
+    private javax.swing.JLabel lblManaszoveg;
     private javax.swing.JLabel lblSebzes;
+    private javax.swing.JLabel lblSebzesszoveg;
+    private javax.swing.JPanel pnlKarakter;
     private javax.swing.JRadioButton rdbHarcos;
     private javax.swing.JRadioButton rdbVarazslo;
     // End of variables declaration//GEN-END:variables

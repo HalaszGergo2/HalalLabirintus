@@ -30,28 +30,29 @@ public class HalalLabirintusGUI extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        lblLink = new javax.swing.JLabel();
+        btnLeiras = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        jButton2 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jLabel3 = new javax.swing.JLabel();
+        btnKarakter = new javax.swing.JButton();
+        btnJatek = new javax.swing.JButton();
+        btnKilepes = new javax.swing.JButton();
+        btnBeallitas = new javax.swing.JButton();
+        lblKeszitok = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Halállabirintus");
         setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(153, 153, 153));
 
-        jLabel1.setText("<html><a href=#>Forum</a></html>");
-        jLabel1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lblLink.setText("<html><a href=#>Forum</a></html>");
+        lblLink.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        jButton1.setText("Leírás");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        btnLeiras.setText("Leírás");
+        btnLeiras.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                btnLeirasActionPerformed(evt);
             }
         });
 
@@ -61,35 +62,35 @@ public class HalalLabirintusGUI extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(204, 204, 204));
 
-        jButton2.setText("Karakter");
-        jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        btnKarakter.setText("Karakter");
+        btnKarakter.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnKarakter.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                btnKarakterActionPerformed(evt);
             }
         });
 
-        jButton5.setText("Játék");
-        jButton5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        btnJatek.setText("Játék");
+        btnJatek.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnJatek.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                btnJatekActionPerformed(evt);
             }
         });
 
-        jButton3.setText("Kilépés");
-        jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        btnKilepes.setText("Kilépés");
+        btnKilepes.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnKilepes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                btnKilepesActionPerformed(evt);
             }
         });
 
-        jButton4.setText("Beállítások");
-        jButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        btnBeallitas.setText("Beállítások");
+        btnBeallitas.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnBeallitas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                btnBeallitasActionPerformed(evt);
             }
         });
 
@@ -100,32 +101,32 @@ public class HalalLabirintusGUI extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnKilepes, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnKarakter, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBeallitas, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnJatek, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
 
-        jPanel2Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {jButton2, jButton3, jButton4, jButton5});
+        jPanel2Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {btnBeallitas, btnJatek, btnKarakter, btnKilepes});
 
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnJatek, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton4)
+                .addComponent(btnBeallitas)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnKarakter, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnKilepes, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
 
-        jPanel2Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jButton2, jButton3, jButton4, jButton5});
+        jPanel2Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {btnBeallitas, btnJatek, btnKarakter, btnKilepes});
 
-        jLabel3.setText("Készítette: Halász Gergő, Kovács Gábor");
+        lblKeszitok.setText("Készítette: Halász Gergő, Kovács Gábor");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -143,11 +144,11 @@ public class HalalLabirintusGUI extends javax.swing.JFrame {
                 .addGap(70, 70, 70))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton1)
+                .addComponent(btnLeiras)
                 .addGap(50, 50, 50)
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblKeszitok, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblLink, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -159,9 +160,9 @@ public class HalalLabirintusGUI extends javax.swing.JFrame {
                 .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(37, 37, 37)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel3))
+                    .addComponent(btnLeiras)
+                    .addComponent(lblLink, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblKeszitok))
                 .addContainerGap())
         );
 
@@ -180,25 +181,25 @@ public class HalalLabirintusGUI extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void btnBeallitasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBeallitasActionPerformed
     new Beallitasok().setVisible(true);
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_btnBeallitasActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void btnKarakterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKarakterActionPerformed
     new Karakterek().setVisible(true);
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_btnKarakterActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void btnKilepesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKilepesActionPerformed
         System.exit(0);
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_btnKilepesActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void btnJatekActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnJatekActionPerformed
     new JatekForm().setVisible(true);
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_btnJatekActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void btnLeirasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLeirasActionPerformed
      JOptionPane.showMessageDialog(rootPane, "Egy versenyre nevezel, aminek a lényege, hogy át kell kelni a halállabirintuson. \nA labirintusban tárgyakat találhatsz és szörnyekkel kell harcoljál.", "Leírás", 1);
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_btnLeirasActionPerformed
 
     /**
      * @param args the command line arguments
@@ -236,15 +237,15 @@ public class HalalLabirintusGUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JButton btnBeallitas;
+    private javax.swing.JButton btnJatek;
+    private javax.swing.JButton btnKarakter;
+    private javax.swing.JButton btnKilepes;
+    private javax.swing.JButton btnLeiras;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JLabel lblKeszitok;
+    private javax.swing.JLabel lblLink;
     // End of variables declaration//GEN-END:variables
 }
